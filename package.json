@@ -32,8 +32,8 @@
     "husky": "latest"
   },
   "husky": {
-   "hooks": {
-      "pre-commit": "npm precommit"
+    "hooks": {
+      "pre-commit": "npm run precommit"
     }
- }
+  }
 }

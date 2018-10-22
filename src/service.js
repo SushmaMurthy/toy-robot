@@ -9,7 +9,7 @@ const codeYellow = clc.yellow.bold;
 
 const runSimulator = fileName => {
   reader
-          .readInputFile(fileName)
+    .readInputFile(fileName)
     .then(fileData => parser.parseInstructions(fileData))
     .then(commands => {
       const robotSimulator = new Robot().runInstructions(commands);

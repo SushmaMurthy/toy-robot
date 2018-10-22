@@ -5,7 +5,7 @@
   "main": "src/service.js",
   "scripts": {
     "start": "node src/service.js",
-    "test": "./node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha ./test/**/*.unit.test.js"
+    "precommit": "bash ./scripts/precommit.sh"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,12 @@
     "istanbul": "^0.4.2",
     "mocha": "^5.2.0",
     "prettier": "^1.5.3",
-    "sinon": "^2.0.0"
-  }
+    "sinon": "^2.0.0",
+    "husky": "latest"
+  },
+  "husky": {
+   "hooks": {
+      "pre-commit": "npm precommit"
+    }
+ }
 }

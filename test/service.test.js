@@ -1,1 +1,0 @@
-// Unit tests scripts of service.js

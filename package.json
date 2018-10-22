@@ -1,0 +1,32 @@
+{
+  "name": "toy-robot",
+  "version": "1.0.0",
+  "description": "Toy Robot movement simulator (5*5)",
+  "main": "src/service.js",
+  "scripts": {
+    "start": "node src/service.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SushmaMurthy/toy-robot.git"
+  },
+  "keywords": [
+    "toyrobot",
+    "robot simulator"
+  ],
+  "author": "Sushma Murthy",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^5.2.0",
+    "prettier": "^1.5.3",
+    "sinon": "^2.0.0"
+  }
+}
